@@ -26,5 +26,15 @@ public final class Main {
         System.out.println("marca de coche" + seatIbiza.marca);
         System.out.println(cocheEncendido);
 
+        
+        Car car1 = new Car(2);
+        //para llamar a setter no hay que poner la variable primero porque esta vacio. Se guarda en el objeto (car1). 
+        car1.setBrand("coche");
+        String brandCar1 = car1.getBrand();
+        car1.setColor("pink");
+        String car1Color = car1.getColor();
+
     }
 }
+
+//modificadores de acceso: public, protected or private. Una vez que se constriyet el objeto se puede accededr a cualquier funcion o propiedad porque es publico. 
