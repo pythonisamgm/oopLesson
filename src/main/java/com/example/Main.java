@@ -4,7 +4,7 @@ import java.util.ArrayList;
 /**
  * Hello world!
  */
-public final class Main {
+public final class main {
     
     public static void main(String[] args) {
         
@@ -33,6 +33,13 @@ public final class Main {
         String brandCar1 = car1.getBrand();
         car1.setColor("pink");
         String car1Color = car1.getColor();
+
+        //herencia
+
+        Pet conejo = new Pet("blanco", "belier", "hembra", "bolita");
+        conejo.setAnimalType("lagomorfo");
+        Pet gato = new Pet("gris", "straycat", "macho", "biru");
+        gato.setAnimalType("felino");
 
     }
 }
