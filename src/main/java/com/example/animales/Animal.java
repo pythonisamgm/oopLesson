@@ -2,6 +2,10 @@ package com.example;
 public class Animal extends SerVivo {
     private String animalType;
 
+    public static String respirar(){
+        return "puede respirar";
+    }
+
     public Animal(String animalType) {
         this.animalType = animalType;
     }

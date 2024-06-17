@@ -1,4 +1,4 @@
-package com.example;
+package com.example.concesionario;
 
 public class Car {
     //private: solo se puede acceder dentro de la clase. 

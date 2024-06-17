@@ -1,4 +1,4 @@
-package com.example;
+package com.example.concesionario;
 
 public class Coche {
 
